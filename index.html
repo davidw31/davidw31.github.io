@@ -2,6 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cnocantursa Press Kit</title>
+  <link rel="canonical" href="https://cnocantursa.com">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Force black background immediately -->
+  <style>
+    html, body {
+      background: #000;
+      margin: 0;
+    }
+  </style>
 
   <!-- Open Graph -->
   <meta property="og:title" content="Cnocantursa">
@@ -9,22 +21,22 @@
   <meta property="og:image" content="https://cnocantursa.com/preview.jpg">
   <meta property="og:url" content="https://cnocantursa.com">
   <meta property="og:type" content="website">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cnocantursa">
   <meta name="twitter:description" content="Cnocantursa Press Kit">
   <meta name="twitter:image" content="https://cnocantursa.com/preview.jpg">
+
+  <!-- Redirect (slight delay so crawlers read metadata) -->
   <script>
     setTimeout(function() {
       window.location.href = "/cnocantursa/index.pdf";
-    }, 500);
+    }, 300);
   </script>
 </head>
 
-<body style="background:black; margin:0;">
-  <h1>Cnocantursa</h1>
-  <p>Click below to view the PDF</p>
-  <a href="/cnocantursa/index.pdf" style="font-size:20;">Open PDF</a>
-</body>
+<body></body>
 </html>
